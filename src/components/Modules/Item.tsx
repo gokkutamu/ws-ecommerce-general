@@ -14,7 +14,7 @@ const Item = (props: any) => {
                     <span className="amount">x{item.amount}</span>
                 </div>
             </div>
-            <div className="actions">
+            <div className="actions1">
                 <button onClick={props.onRemove}>−</button>
                 <button onClick={props.onAdd}>+</button>
             </div>
